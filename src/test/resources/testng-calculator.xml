@@ -56,7 +56,7 @@
     <test name="Multiplication operation with double">
         <parameter name="first-number" value="1.7" />
         <parameter name="second-number" value="2" />
-        <parameter name="expected-number" value="3.2" />
+        <parameter name="expected-number" value="3.4" />
         <classes>
             <class name="by.epamlab.testng_hometask.calculator_test.CalculatorMultWithDoubleTest" />
         </classes>

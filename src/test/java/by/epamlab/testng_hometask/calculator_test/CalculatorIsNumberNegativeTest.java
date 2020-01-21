@@ -9,7 +9,7 @@ public class CalculatorIsNumberNegativeTest extends CalculatorConditions {
 
     @Parameters({"negative-number"})
     @Test(description = "Check is number negative", groups = {"condition test"})
-    public void checkIsNegativeCondition(long negativeNumber) {
+    public void checkNegativeCondition(long negativeNumber) {
         Assert.assertTrue(getCalculator().isNegative(negativeNumber));
     }
 }

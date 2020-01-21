@@ -13,13 +13,11 @@ public class CalculatorConditions {
     @BeforeMethod
     public void setUp(Method method) {
         calculator = new Calculator();
-        System.out.println(method.getName() + " started");
     }
 
     @AfterMethod
     public void tearDown(Method method) {
         calculator = null;
-        System.out.println(method.getName() + " finished");
     }
 
     protected Calculator getCalculator() {
