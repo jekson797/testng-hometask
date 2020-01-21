@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Timeout test" verbose="1" time-out="4500" parallel="false">
+
+    <test name="Sleep test">
+        <parameter name="sleep-seconds" value="4" />
+        <classes>
+            <class name="by.epamlab.testng_hometask.timeout_test.TimeoutSleepTest" />
+        </classes>
+    </test>
+
+</suite>

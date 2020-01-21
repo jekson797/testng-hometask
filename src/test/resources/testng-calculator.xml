@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
-<suite name="Calculator tests" verbose="1" parallel="classes"  thread-count="2">
+<suite name="Calculator test" verbose="1" parallel="classes"  thread-count="2">
 
     <test name="Sum operation with long">
         <parameter name="first-number" value="10" />
@@ -142,5 +142,4 @@
             <class name="by.epamlab.testng_hometask.calculator_test.CalculatorIsNumberNegativeTest" />
         </classes>
     </test>
-
 </suite>
